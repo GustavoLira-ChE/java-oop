@@ -19,5 +19,11 @@ public class Main {
         int result = myObj3.sum();
         System.out.println(result);
 
+        Car myCar = new Car("VW","Polo");
+        Car myCar2 = new Car("Mazda","3");
+        System.out.println(myCar.getModel());
+        System.out.println(myCar2.getModel());
+        myCar.honk();
+
     }
 }
